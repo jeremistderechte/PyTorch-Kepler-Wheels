@@ -10,3 +10,9 @@ Note that my versions are not compiled with AVX-2 in mind as I use IvyBridge ser
 
 ## Currently supported architectures
 - Kepler (only CUDA Compatibility 3.5, not 3.0 or 3.7)
+
+## Downlaods
+
+Ceck the [releases][download-link] page for downloads
+
+[download-link]: https://github.com/jeremistderechte/PyTorch-Kepler-Wheels/releases
