@@ -8,6 +8,13 @@ Keep in mind that Kepler is now a decade old and doesn't support new features li
 
 Note that my versions are not compiled with AVX-2 in mind as I use IvyBridge server CPUs when running my Teslas. So this can lead to a small performance hit when computing on the CPU if your CPU supports AVX2.
 
+![nvidia-smi_torch](https://github.com/jeremistderechte/PyTorch-Kepler-Wheels/assets/116145963/21a02a3c-264a-41a1-905f-fef3145892b4)
+
+
+![torch2](https://github.com/jeremistderechte/PyTorch-Kepler-Wheels/assets/116145963/01558537-9e72-467e-9f4d-c69d59f834b3)
+
+
+
 ## Currently supported architectures
 - Kepler (only CUDA Compatibility 3.5, not 3.0 nor 3.7)
 
