@@ -9,10 +9,20 @@ Keep in mind that Kepler is now a decade old and doesn't support new features li
 Note that my versions are not compiled with AVX-2 in mind as I use IvyBridge server CPUs when running my Teslas. So this can lead to a small performance hit when computing on the CPU if your CPU supports AVX2.
 
 ## Currently supported architectures
-- Kepler (only CUDA Compatibility 3.5, not 3.0 or 3.7)
+- Kepler (only CUDA Compatibility 3.5, not 3.0 nor 3.7)
 
-## Downlaods
+### Compatibility table
 
-Ceck the [releases][download-link] page for downloads
+| CUDA Capability  | GPUs | Graphics Cards |
+| ------------- | ------------- | ------------- |
+| 3.5  | GK110, GK208  | GeForce GTX TITAN Z, GeForce GTX TITAN Black, GeForce GTX TITAN, GeForce GTX 780 Ti, GeForce GTX 780, GeForce GT 640 (GDDR5), GeForce GT 630 v2, GeForce GT 730, GeForce GT 720, GeForce GT 710, GeForce GT 740M (64-bit, DDR3), Quadro K6000, Quadro K5200, Tesla K40, Tesla K20x, Tesla K20  |
+
+Source: [Wikipedia][cuda-list]
+
+
+## Downloads
+
+Check the [releases][download-link] page for downloads!
 
 [download-link]: https://github.com/jeremistderechte/PyTorch-Kepler-Wheels/releases
+[cuda-list]: https://de.wikipedia.org/wiki/CUDA
