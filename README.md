@@ -1,6 +1,6 @@
 # PyTorch-Kepler-Wheels
 
-For people who want to use their old Kepler GPUs for machine learning but don't want to deal with compiling PyTorch from source, here's the solution!
+For people who want to use their old Kepler GPUs (3.5) for machine learning but don't want to deal with compiling PyTorch from source, here's the solution! Currently (Nov. 2023) the prebuilt PyTorch package only supports CUDA Capability 3.7 and later, so only the GK210 (Tesla K80) from the Kepler generation. If you're using a GPU newer than 3.5, just use the offical package. First gen Kepler (3.0) builts are far more challenging, because they DO NOT support CUDA 11.x and therefore not the C++17 standard, which is used in PyTorch, you can still try to build older PyTorch versions that used an older C++ standard. But first gen Kepler cards are pretty much useless, because of the lack of high memory buffers, way fewer cuda cores and missing features compared to 3.5, better stick to Colab or CPU :-D.
 
 I am the proud owner of a Tesla K20 and a Tesla K40. The second card in particular is still quite suitable for basic ML tasks, as the card is equipped with a 12 GB GDDR5 memory buffer and can be found quite cheaply on sites like eBay or Aliexpress. So if you're on a budget or want to look back at Kepler for ML tasks, you've come to the right place.
 
